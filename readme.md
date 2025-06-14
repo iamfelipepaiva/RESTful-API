@@ -92,32 +92,36 @@ Segue os prints de testes utilizando o Insomnia
 <br>
 <p align="center">
   FIND ALL
-  <>
+
+ <img src="/prints/get.1 (all).jpg" title="hover text">
 </p>
 <br>
 <p align="center">
   FIND ID
-  <>
+ 
 </p>
 <br>
 <p align="center">
   FIND NAME
-  <>
+
 </p>
 <br>
 <p align="center">
   CREATE
-  <>
+<img src="/prints/post.1.jpg" title="hover text">
 </p>
 <br>
 <p align="center">
   UPDATE
-  <>
+<img src="/prints/put.1.jpg" title="hover text">
+
+<img src="/prints/put.2.jpg" title="hover text">
 </p>
 <br>
 <p align="center">
   DELETE
-  <>
+<img src="/prints/delete.1.jpg" title="hover text">
+<img src="/prints/get.2 (item deleted).jpg" title="hover text">
 </p>
 
 <br>
