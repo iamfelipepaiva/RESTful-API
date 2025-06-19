@@ -24,6 +24,11 @@ public class ProdutoService {
         return produtoRepositorio.findByNomeLike(nome);
     }
 
+    //Buscar por id
+    public Optional<Produto> getProductById(Long id) {
+        return produtoRepositorio.findById(id);
+    }
+
     // Salvar um novo produto
     public Produto save(Produto produto) {
         return produtoRepositorio.save(produto);

@@ -28,7 +28,14 @@ public class Produto {
     public Produto() {
 
     }
+    /*
     public void CalcVenda (double valorvenda, double porclucro, double custounit) {
         this.valorvenda = porclucro*custounit;
+    }
+    */
+    public void CalcVenda() {
+        if (this.custounit > 0 && this.porclucro > 0) {
+            this.valorvenda = this.custounit * (1 + (this.porclucro / 100));
+        }
     }
 }

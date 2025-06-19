@@ -9,14 +9,14 @@
 # StockVentory
 
 ## About the project
-Spring Boot simple CRUD project, example of reading, create, update and delete. Application developed with Spring Boot, Spring Web, Spring JPA, Spring Maven, Lombok and IntelliJ.
+Spring Boot CRUD project with methods of reading, creating, updating and deleting. Application developed through Spring Boot, Spring Web, Spring JPA, Spring Maven, Lombok and IntelliJ.
 
 ## Sobre o projeto
-Spring Boot projeto CRUD simples, exemplo de leitura, criação, atualização e exclusão. Aplicativo desenvolvido com Spring Boot, Spring Web, Spring JPA, Spring Maven, Lombok e IntelliJ.
+Projeto Spring Boot CRUD com métodos de leitura, criação, atualização e exclusão. Aplicativo desenvolvido através dos recursos digitais Spring Boot, Spring Web, Spring JPA, Spring Maven, Lombok e IntelliJ.
 
-<br>
 
-## Tools 
+
+## Digital resources 
 This project is based on the [Spring Boot] (http://projects.spring.io/spring-boot/) project and uses these packages:
 <div style="display: inline_block"><br> 
   <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
@@ -33,7 +33,7 @@ This project is based on the [Spring Boot] (http://projects.spring.io/spring-boo
 - Lombok
 - IntelliJ
 
-## Ferramentas 
+## Recursos digitais
 Este projeto é baseado no projeto [Spring Boot] (http://projects.spring.io/spring-boot/) e usa estes pacotes:
 <div style="display: inline_block"><br> 
   <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
@@ -50,7 +50,6 @@ Este projeto é baseado no projeto [Spring Boot] (http://projects.spring.io/spri
 - Lombok  
 - IntelliJ  
 
-<br>
 
 ## Installation 
 The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
@@ -58,15 +57,18 @@ The project is created with Maven, so you just need to import it to your IDE and
 ## Instalação 
 O projeto é criado com Maven, então você só precisa importá-lo para o seu IDE e construir o projeto para resolver as dependências.
 
-<br>
-
-## Database configuration 
 
 
-## Configuração database
-Crie um banco de dados MySQL com o nome `crud` e adicione as credenciais a `/resources/application.properties`. 
-Os padrões são:
+## Database display 
+<p align="center">
 
+<img src="/prints/h2.post.jpg" title="hover text">
+</p>
+
+## Tela do banco do dados
+<p align="center">
+<img src="/prints/h2.post.jpg" title="hover text">
+</p>
 <br>
 
 ```
@@ -97,22 +99,26 @@ Segue os prints de testes utilizando o Insomnia
 </p>
 <br>
 <p align="center">
-  FIND ID
- 
+  FIND BY ID
+
+ <img src="/prints/findbyid.jpg" title="hover text">
 </p>
 <br>
 <p align="center">
-  FIND NAME
+  FIND BY NAME
 
+<img src="/prints/findbyname.jpg" title="hover text">
 </p>
 <br>
 <p align="center">
   CREATE
+
 <img src="/prints/post.1.jpg" title="hover text">
 </p>
 <br>
 <p align="center">
   UPDATE
+
 <img src="/prints/put.1.jpg" title="hover text">
 
 <img src="/prints/put.2.jpg" title="hover text">
@@ -120,6 +126,7 @@ Segue os prints de testes utilizando o Insomnia
 <br>
 <p align="center">
   DELETE
+
 <img src="/prints/delete.1.jpg" title="hover text">
 <img src="/prints/get.2 (item deleted).jpg" title="hover text">
 </p>

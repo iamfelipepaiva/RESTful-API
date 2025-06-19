@@ -2,17 +2,16 @@ package com.stockventory.Stockventory_app.controller;
 
 
 import com.stockventory.Stockventory_app.model.Produto;
-import com.stockventory.Stockventory_app.repository.ProdutoRepositorio;
 import com.stockventory.Stockventory_app.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import java.util.List;
+import java.util.Optional;
 
 //http://localhost:8080/swagger-ui/index.html#/ - DOCUMENTAÇÃO SWAGGER
-
+//http://localhost:8080/h2-console - CONEXÃO DB
 
     @Tag(name = "Stockventory controller", description = "Operações relacionadas à solicitações HTTP CRUD")
     @RestController
@@ -32,6 +31,12 @@ import java.util.List;
         @GetMapping("/nome/{nome}")
         public List<Produto> findByName(@PathVariable("nome") String name) {
             return service.Consultar("%" + name + "%");
+        }
+
+        @Operation(summary = "Pesquisar pelo id")
+        @GetMapping("/{id}")
+        public Optional<Produto> findById(@PathVariable("id") Long id) {
+            return service.getProductById(id);
         }
 
         @Operation(summary = "Adicionar produto")
