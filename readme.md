@@ -18,20 +18,6 @@ Projeto Spring Boot CRUD com métodos de leitura, criação, atualização e exc
 
 ## Digital resources 
 This project is based on the [Spring Boot] resources and uses these packages:
-<div style="display: inline_block"><br> 
-  <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
-  <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg">
-  <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg">
-  <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg">
-</div>
-
-
-- Maven
-- Spring Web
-- Spring Boot
-- Spring JPA
-- Lombok
-- IntelliJ
 
 ## Recursos digitais
 Este projeto é baseado nos recursos [Spring Boot] e usa estes pacotes:
@@ -53,10 +39,6 @@ Este projeto é baseado nos recursos [Spring Boot] e usa estes pacotes:
 
 ## Class diagram
 Below goes the class diagram of the project.
-<p align="center">
-
-<img src="/prints/classdiagram.jpeg" title="hover text">
-</p>
 
 ## Class diagram
 Segue abaixo o diagrama de classes do projeto.
@@ -74,10 +56,6 @@ O projeto foi construído com o gerenciador Maven então você só precisa baix�
 
 
 ## Database display 
-<p align="center">
-
-<img src="/prints/h2.post.jpg" title="hover text">
-</p>
 
 ## Tela do banco do dados
 <p align="center">
