@@ -17,7 +17,7 @@ Projeto Spring Boot CRUD com métodos de leitura, criação, atualização e exc
 
 
 ## Digital resources 
-This project is based on the [Spring Boot] (http://projects.spring.io/spring-boot/) project and uses these packages:
+This project is based on the [Spring Boot] resources and uses these packages:
 <div style="display: inline_block"><br> 
   <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
   <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg">
@@ -34,7 +34,7 @@ This project is based on the [Spring Boot] (http://projects.spring.io/spring-boo
 - IntelliJ
 
 ## Recursos digitais
-Este projeto é baseado no projeto [Spring Boot] (http://projects.spring.io/spring-boot/) e usa estes pacotes:
+Este projeto é baseado nos recursos [Spring Boot] e usa estes pacotes:
 <div style="display: inline_block"><br> 
   <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
   <img height="35" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg">
@@ -51,11 +51,25 @@ Este projeto é baseado no projeto [Spring Boot] (http://projects.spring.io/spri
 - IntelliJ  
 
 
+## Class diagram
+Below goes the class diagram of the project.
+<p align="center">
+
+<img src="/prints/classdiagram.jpeg" title="hover text">
+</p>
+
+## Class diagram
+Segue abaixo o diagrama de classes do projeto.
+<p align="center">
+
+<img src="/prints/classdiagram.jpeg" title="hover text">
+</p>
+
 ## Installation 
-The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
+The project has been built with Maven, so all you need to do is download it to your computer and through the IDE build it to resolve the dependencies.
 
 ## Instalação 
-O projeto é criado com Maven, então você só precisa importá-lo para o seu IDE e construir o projeto para resolver as dependências.
+O projeto foi construído com o gerenciador Maven então você só precisa baixá-lo para o seu computador, e através da IDE e construir e resolver as dependências.
 
 
 
@@ -71,25 +85,12 @@ O projeto é criado com Maven, então você só precisa importá-lo para o seu I
 </p>
 <br>
 
-```
-
-```
-
-<br>
-
-## Usage 
-Run the project through the IDE and head out to
-
-## Uso 
-Execute o projeto por meio do IDE e vá para
-
-<br>
 
 ## Demonstration of how the API works
-Follow the test prints using Insomnia
+Below goes the tests of the API through Insomnia platform.
 
 ## Demonstração do funcionamento da API
-Segue os prints de testes utilizando o Insomnia
+Seguem abaixo os testes da API através da plataforma Insomnia.
 
 <br>
 <p align="center">
