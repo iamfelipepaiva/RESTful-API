@@ -14,27 +14,7 @@ public class ProdutoService {
     @Autowired
     private ProdutoRepositorio produtoRepositorio;
 
-    // Listar todos os produtos
-    public List<Produto> listarTodos() {
-        return produtoRepositorio.findAll();
-    }
-
-    // Buscar produtos por nome
-    public List<Produto> Consultar(String nome) {
-        return produtoRepositorio.findByNomeLike(nome);
-    }
-
-    //Buscar por id
-    public Optional<Produto> getProductById(Long id) {
-        return produtoRepositorio.findById(id);
-    }
-
-    // Salvar um novo produto
-    public Produto save(Produto produto) {
-        return produtoRepositorio.save(produto);
-    }
-
- public Produto update(long id, Produto produto) {
+    public Produto update(long id, Produto produto) {
         Optional<Produto> opc = produtoRepositorio.findById(id);
         if (opc.isPresent()) {
             Produto bd = opc.get();
@@ -44,11 +24,28 @@ public class ProdutoService {
             bd.setCustounit(produto.getCustounit());
             bd.setPorclucro(produto.getPorclucro());
             bd.setQuantidade(produto.getQuantidade());
-            bd.setValorvenda(produto.getValorvenda());
+
             return produtoRepositorio.save(bd);
         } else {
             throw new RuntimeException("Produto não encontrado para atualização");
         }
+    }
+
+    public Produto save(Produto produto) {
+        produto.calcularVenda();
+        return produtoRepositorio.save(produto);
+    }
+
+    public Optional<Produto> getProductById(Long id) {
+        return produtoRepositorio.findById(id);
+    }
+
+    public List<Produto> Consultar(String nome) {
+        return produtoRepositorio.findByNomeLike(nome);
+    }
+
+    public List<Produto> listarTodos() {
+        return produtoRepositorio.findAll();
     }
 
     public void delete(long id) {

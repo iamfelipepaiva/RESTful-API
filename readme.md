@@ -38,7 +38,7 @@ Este projeto é baseado nos recursos [Spring Boot] e usa estes pacotes:
 
 
 ## Class diagram
-Below goes the class diagram of the project.
+Below is the class diagram of the project.
 
 ## Class diagram
 Segue abaixo o diagrama de classes do projeto.
@@ -65,7 +65,7 @@ O projeto foi construído com o gerenciador Maven então você só precisa baix�
 
 
 ## Demonstration of how the API works
-Below goes the tests of the API through Insomnia platform.
+Below are the tests of the API carried through the Insomnia platform.
 
 ## Demonstração do funcionamento da API
 Seguem abaixo os testes da API através da plataforma Insomnia.
@@ -113,15 +113,10 @@ Seguem abaixo os testes da API através da plataforma Insomnia.
 <br>
 
 ## Contact
-E-mail:  
-davi.silva70@fatec.sp.gov.br  
-diego.rodrigues53@fatec.sp.gov.br  
-felipe.paiva@fatec.sp.gov.br  
-filicio.david@fatec.sp.gov.br  
-isabella.ataide@fatec.sp.gov.br  
+E-mail addresses:  
 
 ## Contato
-E-mail:  
+Endereços de e-mail:  
 davi.silva70@fatec.sp.gov.br  
 diego.rodrigues53@fatec.sp.gov.br  
 felipe.paiva@fatec.sp.gov.br  
